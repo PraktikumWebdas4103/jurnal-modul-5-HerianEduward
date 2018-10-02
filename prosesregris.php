@@ -12,7 +12,7 @@
    $Nama=$_POST['nama'];
    $Email=$_POST['email'];
  
- $sql="INSERT INTO pendaftaranmahasiswa(nim,nama,email) VALUES ('$nim','$nama','$email')";
+ $sql="INSERT INTO pendaftaranmahasiswa(nim,nama,email) VALUES ('$NIM','$Nama','$Email')";
    if(mysqli_query($con,$sql)){
     echo "Database sudah masuk";
    }else{
